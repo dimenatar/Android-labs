@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="capitalisation_spinner">
+        <item>Раз в месяц</item>
+    </string-array>
+    <string-array name="deposit_spinner">
+        <item>не предусмотрено</item>
+    </string-array>
+    <string-array name="currency">
+        <item>доллары США</item>
+    </string-array>
+    <string-array name="years_spinner">
+        <item>1 год</item>
+    </string-array>
+</resources>

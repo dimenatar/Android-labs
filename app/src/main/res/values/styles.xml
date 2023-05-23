@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextBox" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginBottom">@dimen/main_margin</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+    <style name="TextBoxLand" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginBottom">@dimen/land_margin</item>
+        <item name="android:textSize">@dimen/text_size_land</item>
+    </style>
+</resources>

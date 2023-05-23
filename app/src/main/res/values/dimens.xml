@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_margin">50dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="land_margin">29dp</dimen>
+    <dimen name="text_size_land">14sp</dimen>
+</resources>

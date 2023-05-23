@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">lab_2</string>
+    <string name="deposit_amount">Сумма вклада</string>
+    <string name="period_of_placement">Срок размещения</string>
+    <string name="start_date">Дата начала срока</string>
+    <string name="interest_rate">Процентная ставка</string>
+    <string name="interest_accrued">Начислено процентов</string>
+    <string name="periodicity_of_capitalization">Периодичность капитализации</string>
+    <string name="deposit_replenishment">Пополнение вклада</string>
+    <string name="years">% годовых</string>
+    <string name="add_to_contribution">Добавить ко вкладу</string>
+    <string name="pay">Выплачивать</string>
+    <string name="set_different">задать свой</string>
+    <string name="calculate">Рассчитать</string>
+</resources>
