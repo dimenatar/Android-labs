@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
@@ -20,7 +22,7 @@
         <EditText
             android:id="@+id/main_name"
             android:layout_width="200dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:hint="name"
             android:maxLength="50"
             android:maxLines="1" />
@@ -28,7 +30,7 @@
         <EditText
             android:id="@+id/main_type"
             android:layout_width="200dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:hint="type"
             android:maxLength="50"
             android:maxLines="1" />
@@ -36,7 +38,7 @@
         <EditText
             android:id="@+id/main_author"
             android:layout_width="200dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:hint="author"
             android:maxLength="50"
             android:maxLines="1" />
@@ -44,11 +46,54 @@
         <EditText
             android:id="@+id/main_price"
             android:layout_width="200dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:hint="price"
             android:maxLength="50"
             android:maxLines="1"
             android:inputType="number" />
+
+        <EditText
+            android:id="@+id/main_email"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.709" />
+
+        <EditText
+            android:id="@+id/main_telephone"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="telephone"
+            android:inputType="phone"
+            android:maxLength="50"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.619" />
+        <EditText
+            android:id="@+id/main_link"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="link"
+            android:maxLength="50"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.619" />
     </LinearLayout>
 
     <Button
