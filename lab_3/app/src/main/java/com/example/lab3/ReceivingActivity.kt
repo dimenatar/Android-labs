@@ -65,7 +65,7 @@ class ReceivingActivity : AppCompatActivity() {
             val writer = FileWriter(file)
 
             writer.use {
-                it.write(jsonValue);
+                it.appendLine(jsonValue);
             }
 
             Toast.makeText(this, "Файл успешно сохранен", Toast.LENGTH_LONG).show()
