@@ -69,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="320dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/calculate"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.419"
@@ -84,10 +84,11 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/sum"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:inputType="numberSigned|number"
-                android:text="700 000"
+                android:text="700000"
                 android:textSize="12sp" />
 
             <Spinner
@@ -103,6 +104,7 @@
             android:orientation="horizontal">
 
             <Spinner
+                android:id="@+id/years"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:entries="@array/years_spinner" />
@@ -169,12 +171,14 @@
         </LinearLayout>
 
         <Spinner
+            android:id="@+id/periods"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_marginBottom="15dp"
             android:entries="@array/capitalisation_spinner" />
 
         <Spinner
+            android:id="@+id/refill"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_marginBottom="@dimen/main_margin"
@@ -182,7 +186,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/calculate"
